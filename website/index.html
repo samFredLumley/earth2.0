@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Earth2.0</title>
+
+    <link rel="shortcut icon" href="img/favicon-globe.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script type="text/javascript" src="test2.js"></script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="icon ion-earth"></i> Earth2.0</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#explore">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#support">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Earth2.0</h1>
+              <p class="intro-text">Guiding populations through a changing climate.
+                <br>...</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Earth2.0</h2>
+
+            <p>Earth2.0 is a game about climate change. It will function as a user interface for a simple climate-driven population model. It will be fun also (hopefully).</p>
+            <p>You play by taking the big and small decisions that make or break for a population living in a treachorous model earth.</p>
+            <p>Your objective is to guide the whole system into an equilibrium by managing a dynamic population, and the environment on which it depends. Good luck!</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mx-auto">
+            <i class="icon ion-ios-world-outline lg-icon"></i>
+            <h2>Why Models?</h2>
+            <p>The output from  models
+              <a href="https://www.carbonbrief.org/qa-how-do-climate-models-work">drives forward climate science</a>
+              , helping people understand how human activity is affecting the Earth’s climate.
+            </p>
+          </div>
+          <div class="col-md-4 mx-auto">
+            <i class="icon ion-ios-people-outline lg-icon"></i>
+            <h2>Why Population?</h2>
+            <p>Human populations do not stand still. Population models can help us to
+              <a href="https://www.popline.org/node/370342"> explore the impacts </a>
+               of our actions for present and future generations.</p>
+          </div>
+          <div class="col-md-4 mx-auto">
+            <i class="icon ion-ios-game-controller-a-outline lg-icon"></i>
+            <h2>Why Games?</h2>
+            <p>Games on the subject of climate change are
+              <a href="https://www.nature.com/articles/nclimate2566">well-suited to address challenges </a>
+              of scientific communication and engagement; we learn when we play.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+
+    <!-- explore Section -->
+    <section id="explore" class="download-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="upper-space">Game mechanics</h2>
+            <p>Even a simple set of rules can give rise to complex behaviours. John Conway's
+              <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"> game of life</a>
+              (example below) uses four rules to decide whether a cell lives or dies in over time. Earth2.0 will assign rules to model individuals.</p>
+            <div class="p5">
+              <!-- Our sketch will go here! -->
+              <iframe src="test2.html" width="100%" height="400px" frameborder="0"></iframe>
+            </div>
+            <br>
+            <p>Your population has basic requirements for land, water and food. But they can only tolerate a particular set of environmental conditions. These conditions affect how they move, multiply and die.</p>
+          </div>
+          <div class="col-md-8 mx-auto">
+            <div class="p5">
+              <!-- Our sketch will go here! -->
+              <img src="img/grid2.png" class="grid-width" alt="">
+            </div>
+            <br>
+          <p>The land that this population lives in is not static either. Basic rules simulate the movement of heat and energy to determine climate and vegetation. And a population can alter its environment through consumption, development and pollution.</p>
+            <img src="img/earth_pixel.png" alt="">
+            <br><br>
+            <p>Players will have access</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- explore Section -->
+    <section class="download-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="col-md-8 mx-auto">
+              <h2>The business end</h2>
+              <h4>Who would find this useful?</h4>
+              <p>Students. Educators. Decision makers. Anyone with an interest in climate science.</p>
+              <h4>Why me?</h4>
+              <p>As a student in </p>
+              <h4>What do I need?</h4>
+              <p>The land that this population lives in is not static either. Basic rules simulate the movement of heat and energy to determine climate and vegetation. And a population can alter its environment through consumption, development and pollution.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- support Section -->
+    <section id="support" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Help make this happen!</h2>
+            <p>To support this idea, I am applying for a
+              <a href="https://blue-fellowships-mcgill.ca/">BLUE Fellowship</a>
+              at McGill's b21.</p>
+              <p>The fellowship would afford me the time and space to fully develop these ideas, to build (and recruit) the skills necessary to implment them, and to create something that just might be of use to other people.</p>
+            <p>Thank you for your consideration!</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/lamSumley" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/samFredLumley" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+
+    <!-- Footer -->
+
+    <hr>
+
+    <footer>
+      <div class="container text-center">
+        <p>by Sam Lumley</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
