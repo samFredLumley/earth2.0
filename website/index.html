@@ -80,9 +80,9 @@
           <div class="col-lg-8 mx-auto">
             <h2>About Earth2.0</h2>
 
-            <p>Earth2.0 is a game about climate change. It will function as a user interface for a simple climate-driven population model. It will be fun also (hopefully).</p>
-            <p>You play by taking the big and small decisions that make or break for a population living in a treachorous model earth.</p>
-            <p>Your objective is to guide the whole system into an equilibrium by managing a dynamic population, and the environment on which it depends. Good luck!</p>
+            <p>Earth2.0 is a game about climate change. It functions as a user interface for a simple, climate-driven population model. It will be fun also (hopefully).</p>
+            <p>You play by enacting the decisions that make or break a population of autonomous agents who live on a treachorous model earth.</p>
+            <p>Your objective is to guide the whole system into an equilibrium by managing a dynamic population and the environment on which it depends. Good luck!</p>
             <p>...</p>
           </div>
         </div>
@@ -97,22 +97,22 @@
             <i class="icon ion-ios-world-outline lg-icon"></i>
             <h2>Why Models?</h2>
             <p>The output from  models
-              <a href="https://www.carbonbrief.org/qa-how-do-climate-models-work">drives forward climate science</a>
+              <a href="https://www.carbonbrief.org/qa-how-do-climate-models-work" target="_blank">drives forward climate science</a>
               , helping people understand how human activity is affecting the Earth’s climate.
             </p>
           </div>
           <div class="col-md-4 mx-auto">
             <i class="icon ion-ios-people-outline lg-icon"></i>
             <h2>Why Population?</h2>
-            <p>Human populations do not stand still. Population models can help us to
-              <a href="https://www.popline.org/node/370342"> explore the impacts </a>
+            <p>Human populations do not stand still. Population models are invaluable in
+              <a href="https://www.popline.org/node/370342" target="_blank"> exploring the impacts </a>
                of our actions for present and future generations.</p>
           </div>
           <div class="col-md-4 mx-auto">
             <i class="icon ion-ios-game-controller-a-outline lg-icon"></i>
             <h2>Why Games?</h2>
-            <p>Games on the subject of climate change are
-              <a href="https://www.nature.com/articles/nclimate2566">well-suited to address challenges </a>
+            <p>Games on the subject of climate change are well-suited to
+              <a href="https://www.nature.com/articles/nclimate2566" target="_blank"> address the challenges </a>
               of scientific communication and engagement; we learn when we play.</p>
           </div>
         </div>
@@ -129,26 +129,30 @@
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="upper-space">Game mechanics</h2>
-            <p>Even a simple set of rules can give rise to complex behaviours. John Conway's
-              <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"> game of life</a>
-              (example below) uses four rules to decide whether a cell lives or dies in over time. Earth2.0 will assign rules to model individuals.</p>
+            <p>Earth2.0 is not supposed to replicate earth's climate. Instead, it is a platform to explore wild, fictional scenarios. In doing so, we can better understand relationships between organisms and their environment.</p>
+            <p>Even simple relationships can give rise to complex behaviours. John Conway's
+              <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank"> game of life</a>
+              (example below) uses four rules to decide whether a particular cell lives or dies in each generation, creating an interesting automated population of cells.</p>
             <div class="p5">
               <!-- Our sketch will go here! -->
-              <iframe src="https://samfredlumley.github.io/earth2.0/website/test2.html" width="100%" height="400px" frameborder="0"></iframe>
+              <iframe src="https://samfredlumley.github.io/earth2.0/website/test2.html" target="_blank" width="100%" height="400px" frameborder="0"></iframe>
             </div>
             <br>
-            <p>Your population has basic requirements for land, water and food. But they can only tolerate a particular set of environmental conditions. These conditions affect how they move, multiply and die.</p>
+            <p>Earth2.0 will use a similar generation-based game design, where simple rules tell each individual whether to move, consume resources (turn vegetation into no vegetation), multiply or die.</p>
+            <p>The population will have basic requirements for land, water and food. On top of this, they can only tolerate a particular set of environmental conditions, which influence their demographic behavious.</p>
           </div>
           <div class="col-md-8 mx-auto">
             <div class="p5">
-              <!-- Our sketch will go here! -->
               <img src="img/grid2.png" class="grid-width" alt="">
             </div>
             <br>
-          <p>The land that this population lives in is not static either. Basic rules simulate the movement of heat and energy to determine climate and vegetation. And a population can alter its environment through consumption, development and pollution.</p>
+          <p>The world that our population inhabits is not static either.
+            <a href="http://www3.geosc.psu.edu/~dmb53/DaveSTELLA/climate/6box/6_box_climate_model.htm" target="_blank">Basic rules </a>
+             will simulate the transfer of energy across grid cells (like those above and below) to determine climate. The population alters its environment via vegetation consumption and gas emissions.</p>
+             <p>The main component of the interface will be a scalable web map, consisting of a small number of 'climate cells', which regenerate monthly. These cells are further divided into 'population cells', which regenerate daily.</p>
             <img src="img/earth_pixel.png" alt="">
-            <br><br>
-            <p>Players will have access</p>
+            <br><br><br>
+            <p>Players will have control over how the population organises over time, where it develops and how it consumes resources. Players will have to manage trade-offs between population hapiness, productivity and survival to keep things afloat!</p>
           </div>
 
         </div>
@@ -163,11 +167,19 @@
             <div class="col-md-8 mx-auto">
               <h2>The business end</h2>
               <h4>Who would find this useful?</h4>
-              <p>Students. Educators. Decision makers. Anyone with an interest in climate science.</p>
+              <p>The idea is to spark thinking about real world environmental conflicts and interventions. So educators, students, decision-makers and anyone with interests in climate science and policy. </p>
               <h4>Why me?</h4>
-              <p>As a student in </p>
+              <p>As a student of Geography and Maths, I've sought visual tools to understand complex systems. In the field of climate modelling, I believe I can bridge a gap between
+                <a href="https://scied.ucar.edu/simple-climate-model" target="_blank"> very simple </a>
+                 and
+                <a href="http://www.cesm.ucar.edu/models/ccsm4.0/" target="_blank">very complex</a> learning tools.</p>
+                <h4>What I have already</h4>
+                <p>Some ideas about what would make a fun and interesting game. Support from people with expertise in game development, climate modelling, climate change education and software development.
+                </p>
               <h4>What do I need?</h4>
-              <p>The land that this population lives in is not static either. Basic rules simulate the movement of heat and energy to determine climate and vegetation. And a population can alter its environment through consumption, development and pollution.</p>
+              <p>Space to develop ideas and skills. People to test things against. Time to learn more javascript, Unity, p5 (from which many of the
+                <a href="https://p5js.org/examples/" target="_blank">examples</a> on this page were based), AWS. And $ for coffee.
+              </p>
             </div>
         </div>
       </div>
@@ -178,21 +190,21 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Help make this happen!</h2>
+            <h2>Let's make this happen!</h2>
             <p>To support this idea, I am applying for a
-              <a href="https://blue-fellowships-mcgill.ca/">BLUE Fellowship</a>
+              <a href="https://blue-fellowships-mcgill.ca/" target="_blank">BLUE Fellowship</a>
               at McGill's b21.</p>
-              <p>The fellowship would afford me the time and space to fully develop these ideas, to build (and recruit) the skills necessary to implment them, and to create something that just might be of use to other people.</p>
+              <p>The fellowship would afford me the time and space to fully develop these ideas, to build (and recruit) the skills necessary to implement them, and to create something that just might be of use to other people.</p>
             <p>Thank you for your consideration!</p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com/lamSumley" class="btn btn-default btn-lg">
+                <a href="https://twitter.com/lamSumley" target="_blank" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
                   <span class="network-name">Twitter</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/samFredLumley" class="btn btn-default btn-lg">
+                <a href="https://github.com/samFredLumley" target="_blank" class="btn btn-default btn-lg">
                   <i class="fa fa-github fa-fw"></i>
                   <span class="network-name">Github</span>
                 </a>
@@ -211,7 +223,8 @@
 
     <footer>
       <div class="container text-center">
-        <p>by Sam Lumley</p>
+        <a href="http://samfredlumley.com/" target="_blank">by Sam Lumley</a>
+        <p></p>
       </div>
     </footer>
 
@@ -222,10 +235,6 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
 
   </body>
