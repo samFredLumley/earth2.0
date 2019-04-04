@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Sam b21 Pres</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Custom style -->
+	<link rel="stylesheet" href="/css/master.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<style media="screen">
+		/* .grid-container {
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 100px;
+height: 50%;
+}
+
+.grid-item {
+text-align: center;
+height: 70%;
+width: 70%;
+text-align: center;
+} */
+
+		.red {
+			color: rgb(233, 106, 119) !important;
+			font-weight: bolder !important;
+		}
+
+		.blues {
+			color: rgb(0, 156, 255) !important;
+		}
+
+		.grey {
+			color: rgb(102, 102, 102)
+		}
+
+		li {
+			font-size: 30px !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-color="#1d8c68">
+				<h3>Climate change games</h3>
+				<br>
+				<p>Sam Lumley</p>
+			</section>
+			<section>
+				<section data-background-color="#1d8c68">
+					<img src="img/geomag2.jpg" style="height: 500px; box-shadow: 0px" alt="">
+				</section>
+				<section data-background-iframe="https://www.youtube.com/embed/-QSUW8s8n0E?start=17" data-background-interactive>
+				</section>
+			</section>
+			<section data-background-color="#1d8c68">
+				<p>make a climate model you can fiddle with</p>
+			</section>
+
+			<!-- <section data-background-color="#1d8c68">
+				<p>models</p>
+				<img class="fragment" src="img/model.png" alt="">
+				<img class="fragment" src="img/model.png" alt="">
+			</section> -->
+
+			<section data-background-iframe="https://croadsworldclimate.climateinteractive.org/" data-background-interactive>
+			</section>
+			<section data-background-iframe="http://monash.edu/research/simple-climate-model/mscm/greb/cgi-bin/rsp_dcnstrct_b_i18n.py?locale=EN&version=Basic&activetab=undefined&topography=1&clouds=1&humidity=1&heat_diff=1&heat_adv=1&albedo=1&ocean=1&hydro=1&vapour_diff=1&vapour_adv=1&topography_s=1&heat_diff_s=1&heat_adv_s=1&variable=01"
+			  data-background-interactive>
+			</section>
+
+			<section data-background-iframe="https://earth.nullschool.net/" data-background-interactive>
+			</section>
+
+			<section data-background-color="#1d8c68">
+				<p class="fragment fade-in-then-semi-out">why the geomag?</p>
+				<p class="fragment">simple</p>
+				<p class="fragment">unbounded</p>
+				<p class="fragment">good building block</p>
+			</section>
+
+			<section data-background-iframe="https://samfredlumley.github.io/earth2.0/website/" data-background-interactive>
+			</section>
+
+			<section data-background-color="#1d8c68">
+				<img src="img/earth2.png" style="height: 500px; box-shadow: 0px" alt="">
+			</section>
+			<section data-background-color="#1d8c68">
+				<section>
+					<h4>let's make something</h4>
+
+					<ul>
+						<li class="fragment">data vis libraries</li>
+						<ul>
+							<li class="fragment">p5</li>
+							<li class="fragment">d3</li>
+						</ul>
+
+					<li class="fragment">game engine (what's this?)</li>
+					<ul>
+						<li class="fragment">unity</li>
+						<li class="fragment">melonjs</li>
+						<li class="fragment">pixijs</li>
+					</ul>
+					<li class="fragment">physics engine (what's this?)</li>
+					<ul>
+						<li class="fragment">matter.js</li>
+						<li class="fragment">stage.js</li>
+					</ul>
+					<li class="fragment">agent-based model library</li>
+					<ul>
+						<li class="fragment">net logo web</li>
+						<li class="fragment">agent script</li>
+					</ul>
+					</ul>
+				</section>
+				<section data-background-iframe="http://agentscript.org/models/droplets.html" data-background-interactive>
+				</section>
+				<section data-background-iframe="http://agentscript.org/models/ants.html" data-background-interactive>
+				</section>
+
+			</section>
+
+			<section data-background-color="#1d8c68">
+				<object data="img/timeline.svg" style="height: 600px"></object>
+			</section>
+
+			<section data-background-iframe="http://localhost:8080/" data-background-interactive>
+			</section>
+
+			<section data-background-color="#1d8c68">
+				<ul>
+					<li class="fragment">What are the most important parts of climate-population models?</li>
+					<li class="fragment">How much complexity is enough?</li>
+					<li class="fragment">User's role?</li>
+				</ul>
+			</section>
+
+
+
+			<section>
+				<section data-background-color="#1d8c68">
+					<h2>Thanks!</h2>
+				</section>
+				<section>
+					<p>Slides available at:
+						<p><a target="_blank" href="https://samfredlumley.github.io/mercator-pres/">samfredlumley.github.io/mercator-pres</a></p>
+						<p>Links below each slide</p>
+				</section>
+			</section>
+
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function() {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
